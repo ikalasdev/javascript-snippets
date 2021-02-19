@@ -1,3 +1,6 @@
+/*
+https://ikalas.com/fr/app/nouvelle-image-avec-jimp
+*/
 return new Promise((resolve, reject)=>{
     new Jimp(256, 256, '#BFC0AF', (err, image) => {
         image.scan(0,0, image.bitmap.width, image.bitmap.height, function(x, y, idx){
