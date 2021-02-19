@@ -1,3 +1,6 @@
+/*
+https://ikalas.com/fr/app/image-procedurale
+*/
 return new Promise((resolve, reject)=>{
     new Jimp(20, 20, "#000000", (err, image) => {
         image.scan(0,0, image.bitmap.width, image.bitmap.height, function(x, y, idx){
